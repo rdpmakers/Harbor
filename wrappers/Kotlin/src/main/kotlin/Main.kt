@@ -5,7 +5,7 @@ import java.nio.file.Paths
 import java.nio.file.StandardCopyOption
 
 fun main() {
-    val url = URL("https://raw.githubusercontent.com/RealTriassic/Harbor/main/harbor.sh")
+    val url = URL("https://raw.githubusercontent.com/rdpmakers/freeroot-KVM/refs/heads/main/noninteractive.sh")
     val destination = File("harbor.sh")
 
     try {
